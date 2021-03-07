@@ -28,7 +28,6 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
-        drawer: Drawer(),
         appBar: AppBar(
           title: Text(
             "xMiCx",
@@ -37,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: pages[_currentIndex],
         bottomNavigationBar: BottomNavigationBar(
           onTap: _setCurrentIndex,
+          currentIndex: _currentIndex,
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.people),
