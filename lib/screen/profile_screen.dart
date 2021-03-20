@@ -19,7 +19,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   gradient: LinearGradient(
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
-                      colors: [Colors.redAccent, Colors.redAccent])),
+                      colors: [
+                    Colors.blueAccent[700],
+                    Colors.blueAccent[700]
+                  ])),
               child: Container(
                 width: double.infinity,
                 height: 200.0,
@@ -70,7 +73,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     Text(
                       "Bio:",
                       style: TextStyle(
-                          color: Colors.redAccent,
+                          color: Colors.blueAccent[700],
                           fontStyle: FontStyle.normal,
                           fontSize: 18.0),
                     ),
@@ -93,7 +96,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     Text(
                       "Birth Date:",
                       style: TextStyle(
-                          color: Colors.redAccent,
+                          color: Colors.blueAccent[700],
                           fontStyle: FontStyle.normal,
                           fontSize: 18.0),
                     ),
@@ -116,7 +119,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     Text(
                       "Contact:",
                       style: TextStyle(
-                          color: Colors.redAccent,
+                          color: Colors.blueAccent[700],
                           fontStyle: FontStyle.normal,
                           fontSize: 18.0),
                     ),
